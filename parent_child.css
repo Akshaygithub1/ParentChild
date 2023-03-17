@@ -1,0 +1,10 @@
+.parent {
+  display: flex; /* sets the parent container to use flexbox */
+  justify-content: space-between; /* distributes child elements along the main axis with equal space between them */
+}
+
+.child {
+  width: 25%; /* sets the width of each child element to 25% to fit 4 elements in a single row */
+  height: 100px; /* sets the height of each child element */
+  background-color: #ccc; /* sets a background color for each child element */
+}
